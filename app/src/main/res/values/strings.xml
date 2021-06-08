@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ScanSale</string>
+    <string name="hbh"><![CDATA[<]]></string>
+    <string name="categories">Categories</string>
+    <string name="button">Button</string>
+    <string name="categoriesText">კატეგორიები</string>
+    <string name="kindsText">ქვეკატეგორიები</string>
+    <string name="textview">TextView</string>
+    <string name="d">პროდუქტები</string>
+    <string name="hgf">TextView</string>
+    <string name="fgh">TextView</string>
+    <string name="fg">TODO</string>
+    <string name="fdg">TextView</string>
+    <string name="dfg">TextView</string>
+    <string name="khk">TODO</string>
+    <string name="add_to_basket">Add To Basket</string>
+    <string name="scanning">Scanning...</string>
+    <string name="item_is_on_the_basket">Item is on the basket</string>
+    <string name="x">X</string>
+    <string name="salam_123_sal_am_asdfsdgfsdf">salam 123 sal;am asdfsdgfsdf</string>
+    <string name="o">+</string>
+    <string name="i">-</string>
+    <string name="df">სკანირდება...</string>
+    <string name="jh">ნივთი კალათაშია</string>
+    <string name="resulttext">resultText</string>
+    <string name="todo">TODO</string>
+</resources>

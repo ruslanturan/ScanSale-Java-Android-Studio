@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.IOStarter.scansale">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityScanQr"></activity>
+        <activity android:name=".ActivityScanning" />
+        <activity android:name=".ActivityProductswithQr" />
+        <activity android:name=".ActivityProducts" />
+        <activity android:name=".ActivityProduct" />
+        <activity android:name=".ActivityPaymentResult" />
+        <activity android:name=".ActivityPay" />
+        <activity android:name=".ActivityKinds" />
+        <activity android:name=".ActivityImage" />
+        <activity android:name=".ActivityCategories" />
+        <activity android:name=".ActivityBuyer" />
+        <activity android:name=".ActivityBasket" />
+        <activity android:name=".ActivityHome" />
+        <activity android:name=".ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+
+</manifest>

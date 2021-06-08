@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityScanning">
+    <RelativeLayout
+        android:id="@+id/layCam"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/camera_rect"
+        android:contentDescription="@string/todo"
+        android:padding="25dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdCam"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:cardCornerRadius="110dp">
+
+            <SurfaceView
+                android:id="@+id/cameraPreview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/scanningText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/df"
+        android:textSize="24sp"
+        android:textStyle="bold">
+    </TextView>
+</LinearLayout>

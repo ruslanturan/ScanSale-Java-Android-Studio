@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hor_cats"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/btnHorizontalCategories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="---"
+            android:textAlignment="center"
+            android:textColor="#686868"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

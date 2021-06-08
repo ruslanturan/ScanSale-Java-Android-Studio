@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ActivityBuyer">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtBuyerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="სრული სახელი"
+                android:textSize="18sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="#000000"
+                    android:textColorLink="#000000"
+                    android:textCursorDrawable="@color/cardview_dark_background"
+                    app:backgroundTint="@color/colorAccent" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/txtBuyerMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="ელ-ფოსტა"
+                android:textSize="18sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+                <EditText
+                    android:id="@+id/editMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textColorHighlight="#000000"
+                    android:textColorLink="#000000"
+                    android:textCursorDrawable="@color/cardview_dark_background"
+                    app:backgroundTint="@color/colorAccent" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/txtBuyerPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="ტელეფონის ნომერი"
+                android:textSize="18sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textColorHighlight="#000000"
+                    android:textColorLink="#000000"
+                    android:hint="5xx xxx xxx"
+                    android:textCursorDrawable="@color/cardview_dark_background"
+                    app:backgroundTint="@color/colorAccent" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/txtBuyerCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="ქალაქი"
+                android:textSize="18sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+                <EditText
+                    android:id="@+id/editCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:inputType="textPersonName"
+                    android:hint="თბილისი"
+                    android:textColorHighlight="#000000"
+                    android:textColorLink="#000000"
+                    android:textCursorDrawable="@color/cardview_dark_background"
+                    app:backgroundTint="@color/colorAccent" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/txtBuyerAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="მისამართი"
+                android:textSize="18sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+                <EditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="#000000"
+                    android:textColorLink="#000000"
+                    android:textCursorDrawable="@color/cardview_dark_background"
+                    app:backgroundTint="@color/colorAccent" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageButton
+                android:id="@+id/btnPay"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pay" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
